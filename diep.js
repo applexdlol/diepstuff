@@ -1,1 +1,435 @@
-const _0x5de3b9=_0x5529;(function(_0x5be553,_0x256bea){const _0x3bf95b=_0x5529,_0x59f856=_0x5be553();while(!![]){try{const _0x4b9889=parseInt(_0x3bf95b(0x101))/0x1+-parseInt(_0x3bf95b(0xf6))/0x2+-parseInt(_0x3bf95b(0x119))/0x3*(parseInt(_0x3bf95b(0xcc))/0x4)+parseInt(_0x3bf95b(0x111))/0x5*(parseInt(_0x3bf95b(0xe1))/0x6)+-parseInt(_0x3bf95b(0x11f))/0x7+-parseInt(_0x3bf95b(0xe8))/0x8+parseInt(_0x3bf95b(0xc9))/0x9*(parseInt(_0x3bf95b(0x126))/0xa);if(_0x4b9889===_0x256bea)break;else _0x59f856['push'](_0x59f856['shift']());}catch(_0x5e9985){_0x59f856['push'](_0x59f856['shift']());}}}(_0x45c3,0xa0bed));const main_panel=document[_0x5de3b9(0xcb)]('div');main_panel['id']=_0x5de3b9(0x10f);const anchor=document[_0x5de3b9(0xcb)]('a');anchor['id']=_0x5de3b9(0xe7);const header=document[_0x5de3b9(0xcb)]('h1');header[_0x5de3b9(0xfc)]=_0x5de3b9(0x108),anchor[_0x5de3b9(0xec)](header);const main_menu_button=document[_0x5de3b9(0xcb)](_0x5de3b9(0x11c));main_menu_button['classList'][_0x5de3b9(0xe9)](_0x5de3b9(0x11c)),main_menu_button[_0x5de3b9(0xfc)]=_0x5de3b9(0x106),main_menu_button[_0x5de3b9(0x11b)]=resetDisplayPanel;const holder_panel=document[_0x5de3b9(0xcb)](_0x5de3b9(0x116));holder_panel['id']='holder_panel',anchor[_0x5de3b9(0xec)](holder_panel);const display_panel=document['createElement'](_0x5de3b9(0x116));display_panel[_0x5de3b9(0x10c)][_0x5de3b9(0xe9)](_0x5de3b9(0xf1)),holder_panel[_0x5de3b9(0xec)](display_panel),display_panel[_0x5de3b9(0x120)][_0x5de3b9(0xeb)]=_0x5de3b9(0xf2),display_panel['style'][_0x5de3b9(0xe2)]=_0x5de3b9(0x114);const initialDisplayState=display_panel[_0x5de3b9(0x123)];function resetDisplayPanel(){const _0x4771d6=_0x5de3b9;display_panel[_0x4771d6(0x123)]='',display_panel[_0x4771d6(0xec)](visual_tab),display_panel[_0x4771d6(0xec)](auto_upgrades_tab);}const view_line=document[_0x5de3b9(0xcb)]('div');view_line['style'][_0x5de3b9(0xe4)]=_0x5de3b9(0xf3),view_line['style'][_0x5de3b9(0x129)]='center',view_line['style'][_0x5de3b9(0xe0)]=_0x5de3b9(0x104),view_line[_0x5de3b9(0x120)][_0x5de3b9(0x105)]=_0x5de3b9(0x12c);const view_line_text=document['createElement'](_0x5de3b9(0x121));view_line_text[_0x5de3b9(0x120)][_0x5de3b9(0xd4)]=_0x5de3b9(0x122),view_line_text['textContent']=_0x5de3b9(0xf7);const view_line_label=document[_0x5de3b9(0xcb)](_0x5de3b9(0x10b));view_line_label[_0x5de3b9(0x10c)]['add']('switch');const view_line_toggle=document['createElement']('INPUT');view_line_toggle['setAttribute']('type','checkbox'),view_line_label[_0x5de3b9(0xec)](view_line_toggle);const view_line_div=document[_0x5de3b9(0xcb)]('div');view_line_label[_0x5de3b9(0xec)](view_line_div),view_line['appendChild'](view_line_label),view_line['appendChild'](view_line_text);const aim_line_color_picker=document['createElement'](_0x5de3b9(0xd5));aim_line_color_picker['type']='color',aim_line_color_picker[_0x5de3b9(0x10a)]=_0x5de3b9(0xda);const aim_line_color_label=document['createElement']('span');aim_line_color_label[_0x5de3b9(0x120)][_0x5de3b9(0xd4)]=_0x5de3b9(0x122),aim_line_color_label[_0x5de3b9(0xfc)]=_0x5de3b9(0x118);const aim_line_color_section=document[_0x5de3b9(0xcb)](_0x5de3b9(0x116));aim_line_color_section[_0x5de3b9(0x120)][_0x5de3b9(0x105)]=_0x5de3b9(0x12c),aim_line_color_section[_0x5de3b9(0x120)][_0x5de3b9(0x129)]='center',aim_line_color_section[_0x5de3b9(0xec)](aim_line_color_picker),aim_line_color_section[_0x5de3b9(0xec)](aim_line_color_label);const show_hp_toggle=document['createElement'](_0x5de3b9(0x116));show_hp_toggle[_0x5de3b9(0x120)][_0x5de3b9(0xe4)]=_0x5de3b9(0xf3),show_hp_toggle['style']['alignItems']=_0x5de3b9(0x124),show_hp_toggle[_0x5de3b9(0x120)]['height']=_0x5de3b9(0x104),show_hp_toggle['style'][_0x5de3b9(0x105)]=_0x5de3b9(0x12c);const show_hp_toggle_text=document['createElement'](_0x5de3b9(0x121));show_hp_toggle_text[_0x5de3b9(0x120)][_0x5de3b9(0xd4)]=_0x5de3b9(0x122),show_hp_toggle_text['textContent']=_0x5de3b9(0xcf);const show_hp_toggle_label=document[_0x5de3b9(0xcb)](_0x5de3b9(0x10b));show_hp_toggle_label[_0x5de3b9(0x10c)]['add'](_0x5de3b9(0x100));const show_hp_toggle_input=document[_0x5de3b9(0xcb)](_0x5de3b9(0x110));function _0x5529(_0x198f8a,_0x39ec80){const _0x45c36b=_0x45c3();return _0x5529=function(_0x5529e6,_0x434152){_0x5529e6=_0x5529e6-0xc9;let _0x4bf2ed=_0x45c36b[_0x5529e6];return _0x4bf2ed;},_0x5529(_0x198f8a,_0x39ec80);}show_hp_toggle_input['setAttribute']('type',_0x5de3b9(0xef)),show_hp_toggle_label['appendChild'](show_hp_toggle_input);const show_hp_toggle_div=document['createElement'](_0x5de3b9(0x116));show_hp_toggle_label[_0x5de3b9(0xec)](show_hp_toggle_div),show_hp_toggle[_0x5de3b9(0xec)](show_hp_toggle_label),show_hp_toggle[_0x5de3b9(0xec)](show_hp_toggle_text);const debug_collisions_toggle=document[_0x5de3b9(0xcb)](_0x5de3b9(0x116));debug_collisions_toggle['style'][_0x5de3b9(0xe4)]=_0x5de3b9(0xf3),debug_collisions_toggle[_0x5de3b9(0x120)]['alignItems']='center',debug_collisions_toggle[_0x5de3b9(0x120)][_0x5de3b9(0xe0)]=_0x5de3b9(0x104),debug_collisions_toggle[_0x5de3b9(0x120)]['display']='flex';const debug_collisions_toggle_text=document[_0x5de3b9(0xcb)](_0x5de3b9(0x121));debug_collisions_toggle_text[_0x5de3b9(0x120)][_0x5de3b9(0xd4)]='bold',debug_collisions_toggle_text[_0x5de3b9(0xfc)]=_0x5de3b9(0x125);const debug_collisions_toggle_label=document[_0x5de3b9(0xcb)](_0x5de3b9(0x10b));debug_collisions_toggle_label[_0x5de3b9(0x10c)][_0x5de3b9(0xe9)](_0x5de3b9(0x100));const debug_collisions_toggle_input=document[_0x5de3b9(0xcb)](_0x5de3b9(0x110));debug_collisions_toggle_input[_0x5de3b9(0x107)](_0x5de3b9(0xcd),'checkbox'),debug_collisions_toggle_label[_0x5de3b9(0xec)](debug_collisions_toggle_input);const debug_collisions_toggle_div=document[_0x5de3b9(0xcb)](_0x5de3b9(0x116));debug_collisions_toggle_label[_0x5de3b9(0xec)](debug_collisions_toggle_div),debug_collisions_toggle[_0x5de3b9(0xec)](debug_collisions_toggle_label),debug_collisions_toggle[_0x5de3b9(0xec)](debug_collisions_toggle_text);const visual_tab=document['createElement'](_0x5de3b9(0x11c));visual_tab[_0x5de3b9(0x10c)][_0x5de3b9(0xe9)](_0x5de3b9(0xf0)),display_panel[_0x5de3b9(0xec)](visual_tab),visual_tab[_0x5de3b9(0xfc)]='Visual',visual_tab[_0x5de3b9(0x11b)]=function(){const _0x8aac0e=_0x5de3b9;display_panel['innerHTML']='',display_panel['appendChild'](main_menu_button),display_panel[_0x8aac0e(0xec)](view_line),display_panel[_0x8aac0e(0xec)](aim_line_color_section),display_panel[_0x8aac0e(0xec)](show_hp_toggle),display_panel[_0x8aac0e(0xec)](debug_collisions_toggle);};const au_label=document['createElement']('span');au_label[_0x5de3b9(0xfc)]=_0x5de3b9(0xca),au_label[_0x5de3b9(0x120)]['fontWeight']='bold';const au_input=document[_0x5de3b9(0xcb)](_0x5de3b9(0x110));au_input['ariaReadOnly']=_0x5de3b9(0x11a),au_input[_0x5de3b9(0x107)](_0x5de3b9(0xcd),'text'),au_input[_0x5de3b9(0x120)][_0x5de3b9(0xfa)]='rgb(20\x2020\x2020)',au_input['style'][_0x5de3b9(0x103)]=_0x5de3b9(0xd7),au_input[_0x5de3b9(0x120)][_0x5de3b9(0xf5)]=_0x5de3b9(0x114),au_input[_0x5de3b9(0x120)]['outline']=_0x5de3b9(0x113),au_input[_0x5de3b9(0x120)]['color']=_0x5de3b9(0x10e),au_input['placeholder']=_0x5de3b9(0x10d),au_input[_0x5de3b9(0x120)][_0x5de3b9(0xd1)]=_0x5de3b9(0xdc);const au_set_button=document[_0x5de3b9(0xcb)](_0x5de3b9(0x11c));function _0x45c3(){const _0x10a528=['tab_button','panel_1','100%','left','lineWidth','marginTop','1021038wESOeR','View\x20Aim\x20Line','Set\x20Build','head','borderColor','change','textContent','position','checked','pointerEvents','switch','658198rJcPME','innerHeight','borderRadius','33px','display','Main\x20Menu','setAttribute','spritelol\x20hack\x20v1.1','onmousedown','value','label','classList','ex:\x2012345678','white','main_panel','INPUT','115625XBmAnZ','canvas','none','4px','getElementById','div','activeElement','Aim\x20Line\x20Color','3mmDxrL','true','onclick','button','innerWidth','stroke','832503shdYOZ','style','span','bold','innerHTML','center','Debug\x20Collisions','10tPMIMo','body','Keep\x20Build\x20on\x20Respawn','alignItems','key','0px','flex','22440483AMugch','Custom\x20Build','createElement','4754080iQdDvq','type','clientX','Show\x20HP','clearRect','backgroundColor','top','lineTo','fontWeight','input','keyCode','5px','onkeyup','set_convar','#000000','ren_raw_health_values','rgb(25\x2025\x2025)','moveTo','game_stats_build\x20','Auto\x20Upgrades','height','6GqJfyy','marginLeft','execute','textAlign','addEventListener','resize','anchor','5586632KCRLLF','add','onmouseup','width','appendChild','beginPath','onmousemove','checkbox'];_0x45c3=function(){return _0x10a528;};return _0x45c3();}au_set_button[_0x5de3b9(0x10c)]['add'](_0x5de3b9(0x11c)),au_set_button[_0x5de3b9(0xfc)]=_0x5de3b9(0xf8),au_set_button['onclick']=function(){const _0x3f619d=_0x5de3b9;input[_0x3f619d(0xe3)](_0x3f619d(0xde)+au_input[_0x3f619d(0x10a)]);};const auto_set_toggle=document['createElement']('div');auto_set_toggle[_0x5de3b9(0x120)]['textAlign']=_0x5de3b9(0xf3),auto_set_toggle[_0x5de3b9(0x120)][_0x5de3b9(0x129)]='center',auto_set_toggle[_0x5de3b9(0x120)]['height']=_0x5de3b9(0x104),auto_set_toggle['style'][_0x5de3b9(0x105)]=_0x5de3b9(0x12c);const auto_set_toggle_text=document['createElement'](_0x5de3b9(0x121));auto_set_toggle_text[_0x5de3b9(0x120)][_0x5de3b9(0xd4)]=_0x5de3b9(0x122),auto_set_toggle_text[_0x5de3b9(0xfc)]=_0x5de3b9(0x128);const auto_set_toggle_label=document[_0x5de3b9(0xcb)](_0x5de3b9(0x10b));auto_set_toggle_label[_0x5de3b9(0x10c)][_0x5de3b9(0xe9)]('switch');const auto_set_toggle_input=document[_0x5de3b9(0xcb)](_0x5de3b9(0x110));auto_set_toggle_input[_0x5de3b9(0x107)]('type',_0x5de3b9(0xef)),auto_set_toggle_label['appendChild'](auto_set_toggle_input);const auto_set_toggle_div=document[_0x5de3b9(0xcb)](_0x5de3b9(0x116));auto_set_toggle_label['appendChild'](auto_set_toggle_div),auto_set_toggle['appendChild'](auto_set_toggle_label),auto_set_toggle['appendChild'](auto_set_toggle_text);const auto_upgrades_tab=document[_0x5de3b9(0xcb)](_0x5de3b9(0x11c));auto_upgrades_tab[_0x5de3b9(0x10c)]['add']('tab_button'),display_panel[_0x5de3b9(0xec)](auto_upgrades_tab),auto_upgrades_tab[_0x5de3b9(0xfc)]=_0x5de3b9(0xdf),auto_upgrades_tab['onclick']=function(){const _0x39effe=_0x5de3b9;display_panel[_0x39effe(0x123)]='',display_panel[_0x39effe(0x120)][_0x39effe(0xe4)]=_0x39effe(0xf3),display_panel[_0x39effe(0xec)](main_menu_button),display_panel[_0x39effe(0xec)](au_label),display_panel[_0x39effe(0xec)](au_input),display_panel['appendChild'](au_set_button),display_panel[_0x39effe(0xec)](auto_set_toggle);};const style=document[_0x5de3b9(0xcb)]('style');style[_0x5de3b9(0xfc)]='\x0a\x20\x20\x20\x20#main_panel\x20a\x20{\x0a\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20\x27Outfit\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20src:\x20url(\x27https://fonts.googleapis.com/css2?family=Outfit&display=swap\x27);\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#anchor\x20{\x0a\x20\x20\x20\x20\x20\x20display:\x20inline-flex;\x0a\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20width:\x20600px;\x0a\x20\x20\x20\x20\x20\x20height:\x20300px;\x0a\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20top:\x2050%;\x0a\x20\x20\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20\x20\x20transform:\x20translate(-50%,\x20-50%);\x0a\x20\x20\x20\x20\x20\x20padding:\x200\x207px\x2014px\x207px;\x0a\x20\x20\x20\x20\x20\x20color:\x20#4b8b00;\x20/*\x20Text\x20color\x20set\x20to\x20dark\x20blue\x20*/\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(15,\x2015,\x2015,\x200.8);\x20/*\x20Background\x20set\x20to\x20transparent\x20black\x20*/\x0a\x20\x20\x20\x20\x20\x20border-radius:\x207px;\x0a\x20\x20\x20\x20\x20\x20border-style:\x20solid;\x0a\x20\x20\x20\x20\x20\x20border-width:\x202px;\x0a\x20\x20\x20\x20\x20\x20border-color:\x20rgb(60\x2060\x2060);\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#holder_panel\x20{\x0a\x20\x20\x20\x20\x20\x20display:\x20inline-flex;\x0a\x20\x20\x20\x20\x20\x20flex-direction:\x20row;\x0a\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20h1\x20{\x0a\x20\x20\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20\x20\x20margin-bottom:\x205px;\x0a\x20\x20\x20\x20\x20\x20color:\x20#4b8b00;\x20/*\x20Title\x20color\x20set\x20to\x20dark\x20blue\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.switch\x20input\x20{\x0a\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.switch\x20{\x0a\x20\x20\x20\x20\x20\x20display:\x20inline-block;\x0a\x20\x20\x20\x20\x20\x20font-size:\x2020px;\x20/*\x201\x20*/\x0a\x20\x20\x20\x20\x20\x20height:\x201em;\x0a\x20\x20\x20\x20\x20\x20width:\x202em;\x0a\x20\x20\x20\x20\x20\x20background:\x20rgb(50\x2050\x2050);\x0a\x20\x20\x20\x20\x20\x20border-radius:\x201em;\x0a\x20\x20\x20\x20\x20\x20margin-right:\x2010px;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.switch\x20div\x20{\x0a\x20\x20\x20\x20\x20\x20height:\x201em;\x0a\x20\x20\x20\x20\x20\x20width:\x201em;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x201em;\x0a\x20\x20\x20\x20\x20\x20background:\x20rgb(100\x20100\x20100);\x0a\x20\x20\x20\x20\x20\x20-webkit-transition:\x20all\x20100ms;\x0a\x20\x20\x20\x20\x20\x20-moz-transition:\x20all\x20100ms;\x0a\x20\x20\x20\x20\x20\x20transition:\x20all\x20100ms;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.switch\x20input:checked\x20+\x20div\x20{\x0a\x20\x20\x20\x20\x20\x20-webkit-transform:\x20translate3d(100%,\x200,\x200);\x0a\x20\x20\x20\x20\x20\x20-moz-transform:\x20translate3d(100%,\x200,\x200);\x0a\x20\x20\x20\x20\x20\x20transform:\x20translate3d(100%,\x200,\x200);\x0a\x20\x20\x20\x20\x20\x20background:\x20rgb(40\x20200\x20140)\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.panel_1\x20{\x0a\x20\x20\x20\x20\x20\x20display:\x20inline-flex;\x0a\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20padding:\x204px;\x0a\x20\x20\x20\x20\x20\x20width:\x20fit-content;\x0a\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(30,\x2030,\x2030,\x200.8);\x20/*\x20Panel\x20background\x20set\x20to\x20transparent\x20black\x20*/\x0a\x20\x20\x20\x20\x20\x20white-space:\x20nowrap;\x0a\x20\x20\x20\x20\x20\x20color:\x20#4b8b00;\x20/*\x20Panel\x20text\x20color\x20set\x20to\x20dark\x20blue\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.button,\x20.tab_button\x20{\x0a\x20\x20\x20\x20\x20\x20font-family:\x20\x27Outfit\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20src:\x20url(\x27https://fonts.googleapis.com/css2?family=Outfit&display=swap\x27);\x0a\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20padding:\x202px\x204px\x202px\x204px;\x0a\x20\x20\x20\x20\x20\x20margin-top:\x202px;\x0a\x20\x20\x20\x20\x20\x20margin-bottom:\x202px;\x0a\x20\x20\x20\x20\x20\x20color:\x20#4b8b00;\x20/*\x20Button\x20text\x20color\x20set\x20to\x20dark\x20blue\x20*/\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(50,\x2050,\x2050,\x200.8);\x20/*\x20Button\x20background\x20set\x20to\x20transparent\x20black\x20*/\x0a\x20\x20\x20\x20\x20\x20border-radius:\x203px;\x0a\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20#4b8b00;\x20/*\x20Border\x20color\x20set\x20to\x20dark\x20blue\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.button:hover,\x20.tab_button:hover\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(100,\x20100,\x20100,\x200.8);\x20/*\x20Button\x20hover\x20background\x20set\x20to\x20transparent\x20gray\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.button:active,\x20.tab_button:active\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(200,\x20200,\x20200,\x200.8);\x20/*\x20Button\x20active\x20background\x20set\x20to\x20transparent\x20light\x20gray\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20.tab_button_selected\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(40,\x20200,\x20140,\x200.8);\x20/*\x20Selected\x20button\x20background\x20set\x20to\x20transparent\x20green\x20*/\x0a\x20\x20\x20\x20}\x0a\x20\x20',main_panel['appendChild'](anchor),document['body'][_0x5de3b9(0xec)](main_panel),document[_0x5de3b9(0xf9)][_0x5de3b9(0xec)](style);function ToggleDisplay(_0x209d1e){const _0x324a98=_0x5de3b9;var _0x3fe596=document[_0x324a98(0x115)](_0x209d1e);_0x3fe596['style'][_0x324a98(0x105)]=_0x3fe596[_0x324a98(0x120)]['display']==='none'?'block':_0x324a98(0x113);}let X,Y,x,y,Z=![],radius=[];document['body'][_0x5de3b9(0xd8)]=function(_0x54a48a){const _0x180224=_0x5de3b9;if(_0x54a48a[_0x180224(0xd6)]===0x1b)ToggleDisplay(_0x180224(0x10f));else{if(document[_0x180224(0x117)]===au_input&&parseInt(_0x54a48a[_0x180224(0x12a)])>=0x1&&parseInt(_0x54a48a[_0x180224(0x12a)])<=0x8)au_input['value']=au_input['value']+_0x54a48a[_0x180224(0x12a)];else document[_0x180224(0x117)]===au_input&&_0x54a48a['keyCode']===0x8&&(au_input[_0x180224(0x10a)]=au_input[_0x180224(0x10a)]['slice'](0x0,-0x1));}},document[_0x5de3b9(0xee)]=function(){const _0x59db0f=_0x5de3b9;x=event[_0x59db0f(0xce)],y=event['clientY'];},document[_0x5de3b9(0x109)]=function(_0x895bf0){const _0x395875=_0x5de3b9;_0x895bf0[_0x395875(0x11c)]==0x2&&(Z=!![]);},document[_0x5de3b9(0xea)]=function(_0x114ed0){const _0x305a2e=_0x5de3b9;_0x114ed0[_0x305a2e(0x11c)]==0x2&&(Z=![]);};const canvas=document['createElement'](_0x5de3b9(0x112));function get_Radius(){const _0x4a64a4=_0x5de3b9;X=window['innerWidth']/0x2,Y=window[_0x4a64a4(0x102)]/0x2,canvas[_0x4a64a4(0xeb)]=window[_0x4a64a4(0x11d)],canvas['height']=window[_0x4a64a4(0x102)],radius[0x0]=window[_0x4a64a4(0x11d)]*0.17681239669,radius[0x1]=window[_0x4a64a4(0x11d)]*0.06545454545,radius[0x2]=window['innerWidth']*0.16751239669,radius[0x3]=window[_0x4a64a4(0x11d)]*0.36;}get_Radius(),window['addEventListener'](_0x5de3b9(0xe6),get_Radius),canvas['style'][_0x5de3b9(0xfd)]='absolute',canvas[_0x5de3b9(0x120)][_0x5de3b9(0xd2)]=_0x5de3b9(0x12b),canvas[_0x5de3b9(0x120)]['left']=_0x5de3b9(0x12b),canvas[_0x5de3b9(0x120)][_0x5de3b9(0xff)]=_0x5de3b9(0x113),document[_0x5de3b9(0x127)][_0x5de3b9(0xec)](canvas);const ctx=canvas['getContext']('2d');function draw(){const _0x23e4c9=_0x5de3b9;ctx[_0x23e4c9(0xd0)](0x0,0x0,canvas[_0x23e4c9(0xeb)],canvas[_0x23e4c9(0xe0)]),view_line_toggle[_0x23e4c9(0xfe)]&&(ctx[_0x23e4c9(0xed)](),ctx[_0x23e4c9(0xdd)](X,Y),ctx[_0x23e4c9(0xd3)](x,y),ctx[_0x23e4c9(0xf4)]=0x2,ctx['strokeStyle']=aim_line_color_picker[_0x23e4c9(0x10a)],ctx[_0x23e4c9(0x11e)]()),auto_set_toggle_input['checked']&&input[_0x23e4c9(0xe3)](_0x23e4c9(0xde)+au_input['value']),requestAnimationFrame(draw);}function toggleShowHP(){const _0x575201=_0x5de3b9;show_hp_toggle_input[_0x575201(0xfe)]?unsafeWindow['input'][_0x575201(0xd9)](_0x575201(0xdb),!![]):unsafeWindow[_0x575201(0xd5)]['set_convar'](_0x575201(0xdb),![]);}function toggleDebugCollisions(){const _0x743c2a=_0x5de3b9;debug_collisions_toggle_input[_0x743c2a(0xfe)]?unsafeWindow[_0x743c2a(0xd5)][_0x743c2a(0xd9)]('ren_debug_collisions',!![]):unsafeWindow[_0x743c2a(0xd5)][_0x743c2a(0xd9)]('ren_debug_collisions',![]);}show_hp_toggle_input['addEventListener'](_0x5de3b9(0xfb),toggleShowHP),debug_collisions_toggle_input[_0x5de3b9(0xe5)](_0x5de3b9(0xfb),toggleDebugCollisions),draw();
+(function () {
+  'use strict'
+
+  //== Basic Elements ==//
+  const main_panel = document.createElement('div')
+  main_panel.id = 'main_panel'
+
+  // Anchor
+  const anchor = document.createElement('a')
+  anchor.id = 'anchor'
+
+  // Header
+  const header = document.createElement('h1')
+  header.textContent = 'spritelol hack v2'
+  anchor.appendChild(header)
+
+  // Main Menu Button
+  const main_menu_button = document.createElement('button')
+  main_menu_button.classList.add('button')
+  main_menu_button.textContent = 'Main Menu'
+  main_menu_button.onclick = resetDisplayPanel
+
+  // Holder panel
+  const holder_panel = document.createElement('div')
+  holder_panel.id = 'holder_panel'
+  anchor.appendChild(holder_panel)
+
+  // Display panel
+  const display_panel = document.createElement('div')
+  display_panel.classList.add('panel_1')
+  holder_panel.appendChild(display_panel)
+  display_panel.style.width = '100%'
+  display_panel.style.marginLeft = '4px'
+
+  // Save the initial state of the panel
+  const initialDisplayState = display_panel.innerHTML;
+
+  // Function to restore the initial state
+  function resetDisplayPanel() {
+    display_panel.innerHTML = '';
+    display_panel.appendChild(visual_tab);
+    display_panel.appendChild(auto_upgrades_tab);
+  }
+
+  //== VISUAL TAB
+  const view_line = document.createElement('div')
+  view_line.style.textAlign = 'left'
+  view_line.style.alignItems = 'center'
+  view_line.style.height = '33px'
+  view_line.style.display = 'flex'
+
+  const view_line_text = document.createElement('span')
+  view_line_text.style.fontWeight = 'bold'
+  view_line_text.textContent = 'View Aim Line'
+
+  const view_line_label = document.createElement('label')
+  view_line_label.classList.add('switch')
+
+  const view_line_toggle = document.createElement('INPUT')
+  view_line_toggle.setAttribute('type', 'checkbox')
+  view_line_label.appendChild(view_line_toggle)
+
+  const view_line_div = document.createElement('div')
+  view_line_label.appendChild(view_line_div)
+  view_line.appendChild(view_line_label)
+  view_line.appendChild(view_line_text)
+
+  // Aim Line Color Picker
+  const aim_line_color_picker = document.createElement('input')
+  aim_line_color_picker.type = 'color'
+  aim_line_color_picker.value = '#000000' // Default color
+
+  const aim_line_color_label = document.createElement('span')
+  aim_line_color_label.style.fontWeight = 'bold'
+  aim_line_color_label.textContent = 'Aim Line Color'
+
+  const aim_line_color_section = document.createElement('div')
+  aim_line_color_section.style.display = 'flex'
+  aim_line_color_section.style.alignItems = 'center'
+  aim_line_color_section.appendChild(aim_line_color_picker)
+  aim_line_color_section.appendChild(aim_line_color_label)
+
+  // Show HP Toggle
+  const show_hp_toggle = document.createElement('div')
+  show_hp_toggle.style.textAlign = 'left'
+  show_hp_toggle.style.alignItems = 'center'
+  show_hp_toggle.style.height = '33px'
+  show_hp_toggle.style.display = 'flex'
+
+  const show_hp_toggle_text = document.createElement('span')
+  show_hp_toggle_text.style.fontWeight = 'bold'
+  show_hp_toggle_text.textContent = 'Show HP'
+
+  const show_hp_toggle_label = document.createElement('label')
+  show_hp_toggle_label.classList.add('switch')
+
+  const show_hp_toggle_input = document.createElement('INPUT')
+  show_hp_toggle_input.setAttribute('type', 'checkbox')
+  show_hp_toggle_label.appendChild(show_hp_toggle_input)
+
+  const show_hp_toggle_div = document.createElement('div')
+  show_hp_toggle_label.appendChild(show_hp_toggle_div)
+  show_hp_toggle.appendChild(show_hp_toggle_label)
+  show_hp_toggle.appendChild(show_hp_toggle_text)
+
+  // Debug Collisions Toggle
+  const debug_collisions_toggle = document.createElement('div')
+  debug_collisions_toggle.style.textAlign = 'left'
+  debug_collisions_toggle.style.alignItems = 'center'
+  debug_collisions_toggle.style.height = '33px'
+  debug_collisions_toggle.style.display = 'flex'
+
+  const debug_collisions_toggle_text = document.createElement('span')
+  debug_collisions_toggle_text.style.fontWeight = 'bold'
+  debug_collisions_toggle_text.textContent = 'Debug Collisions'
+
+  const debug_collisions_toggle_label = document.createElement('label')
+  debug_collisions_toggle_label.classList.add('switch')
+
+  const debug_collisions_toggle_input = document.createElement('INPUT')
+  debug_collisions_toggle_input.setAttribute('type', 'checkbox')
+  debug_collisions_toggle_label.appendChild(debug_collisions_toggle_input)
+
+  const debug_collisions_toggle_div = document.createElement('div')
+  debug_collisions_toggle_label.appendChild(debug_collisions_toggle_div)
+  debug_collisions_toggle.appendChild(debug_collisions_toggle_label)
+  debug_collisions_toggle.appendChild(debug_collisions_toggle_text)
+
+  // Tab Control
+  const visual_tab = document.createElement('button')
+  visual_tab.classList.add('tab_button')
+  display_panel.appendChild(visual_tab)
+  visual_tab.textContent = 'Visual'
+  visual_tab.onclick = function () {
+    display_panel.innerHTML = ``
+    display_panel.appendChild(main_menu_button)
+    display_panel.appendChild(view_line)
+    display_panel.appendChild(aim_line_color_section)
+    display_panel.appendChild(show_hp_toggle)
+    display_panel.appendChild(debug_collisions_toggle)
+  }
+
+  //== AUTO UPGRADES TAB
+  const au_label = document.createElement('span')
+  au_label.textContent = 'Custom Build'
+  au_label.style.fontWeight = 'bold'
+
+  const au_input = document.createElement('INPUT')
+  au_input.ariaReadOnly = 'true'
+  au_input.setAttribute('type', 'text')
+  au_input.style.borderColor = 'rgb(20 20 20)'
+  au_input.style.borderRadius = '5px'
+  au_input.style.marginTop = '4px'
+  au_input.style.outline = 'none'
+  au_input.style.color = 'white'
+  au_input.placeholder = 'ex: 12345678'
+  au_input.style.backgroundColor = 'rgb(25 25 25)'
+
+  const au_set_button = document.createElement('button')
+  au_set_button.classList.add('button')
+  au_set_button.textContent = 'Set Build'
+
+  au_set_button.onclick = function () {
+    input.execute('game_stats_build ' + au_input.value)
+  }
+
+  // Auto Set Toggle
+  const auto_set_toggle = document.createElement('div')
+  auto_set_toggle.style.textAlign = 'left'
+  auto_set_toggle.style.alignItems = 'center'
+  auto_set_toggle.style.height = '33px'
+  auto_set_toggle.style.display = 'flex'
+
+  const auto_set_toggle_text = document.createElement('span')
+  auto_set_toggle_text.style.fontWeight = 'bold'
+  auto_set_toggle_text.textContent = 'Keep Build on Respawn'
+
+  const auto_set_toggle_label = document.createElement('label')
+  auto_set_toggle_label.classList.add('switch')
+
+  const auto_set_toggle_input = document.createElement('INPUT')
+  auto_set_toggle_input.setAttribute('type', 'checkbox')
+  auto_set_toggle_label.appendChild(auto_set_toggle_input)
+
+  const auto_set_toggle_div = document.createElement('div')
+  auto_set_toggle_label.appendChild(auto_set_toggle_div)
+  auto_set_toggle.appendChild(auto_set_toggle_label)
+  auto_set_toggle.appendChild(auto_set_toggle_text)
+
+  // Tab Control
+  const auto_upgrades_tab = document.createElement('button')
+  auto_upgrades_tab.classList.add('tab_button')
+  display_panel.appendChild(auto_upgrades_tab)
+  auto_upgrades_tab.textContent = 'Auto Upgrades'
+  auto_upgrades_tab.onclick = function () {
+    display_panel.innerHTML = ``
+    display_panel.style.textAlign = 'left'
+    display_panel.appendChild(main_menu_button)
+    display_panel.appendChild(au_label)
+    display_panel.appendChild(au_input)
+    display_panel.appendChild(au_set_button)
+    display_panel.appendChild(auto_set_toggle)
+  }
+
+  //== Style ==//
+  const style = document.createElement('style')
+  style.textContent = `
+    #main_panel a {
+      position: absolute;
+      font-family: 'Outfit', sans-serif;
+      src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    }
+
+    #anchor {
+      display: inline-flex;
+      flex-direction: column;
+      width: 600px;
+      height: 300px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0 7px 14px 7px;
+      color: #4b8b00; /* Text color set to dark blue */
+      background: rgba(15, 15, 15, 0.8); /* Background set to transparent black */
+      border-radius: 7px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgb(60 60 60);
+    }
+
+    #holder_panel {
+      display: inline-flex;
+      flex-direction: row;
+      height: 100%;
+    }
+
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #4b8b00; /* Title color set to dark blue */
+    }
+
+    .switch input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .switch {
+      display: inline-block;
+      font-size: 20px; /* 1 */
+      height: 1em;
+      width: 2em;
+      background: rgb(50 50 50);
+      border-radius: 1em;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .switch div {
+      height: 1em;
+      width: 1em;
+      border-radius: 1em;
+      background: rgb(100 100 100);
+      -webkit-transition: all 100ms;
+      -moz-transition: all 100ms;
+      transition: all 100ms;
+      cursor: pointer;
+    }
+
+    .switch input:checked + div {
+      -webkit-transform: translate3d(100%, 0, 0);
+      -moz-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      background: rgb(40 200 140)
+    }
+
+    .panel_1 {
+      display: inline-flex;
+      flex-direction: column;
+      padding: 4px;
+      width: fit-content;
+      height: 100%;
+      border-radius: 5px;
+      background: rgba(30, 30, 30, 0.8); /* Panel background set to transparent black */
+      white-space: nowrap;
+      color: #4b8b00; /* Panel text color set to dark blue */
+    }
+
+    .button, .tab_button {
+      font-family: 'Outfit', sans-serif;
+      src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 2px 4px 2px 4px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      color: #4b8b00; /* Button text color set to dark blue */
+      background: rgba(50, 50, 50, 0.8); /* Button background set to transparent black */
+      border-radius: 3px;
+      border: 2px solid #4b8b00; /* Border color set to dark blue */
+    }
+
+    .button:hover, .tab_button:hover {
+      background: rgba(100, 100, 100, 0.8); /* Button hover background set to transparent gray */
+    }
+
+    .button:active, .tab_button:active {
+      background: rgba(200, 200, 200, 0.8); /* Button active background set to transparent light gray */
+    }
+
+    .tab_button_selected {
+      background: rgba(40, 200, 140, 0.8); /* Selected button background set to transparent green */
+    }
+  `
+
+  //== Appends ==//
+  main_panel.appendChild(anchor)
+  document.body.appendChild(main_panel)
+  document.head.appendChild(style)
+
+  //== Funcs ==//
+  function ToggleDisplay(element_id) {
+    var element = document.getElementById(element_id)
+    element.style.display = element.style.display === 'none' ? 'block' : 'none'
+  }
+
+  //== Vars ==//
+  let X, Y, x, y
+  let Z = false
+  let radius = []
+
+  //== Events ==//
+  document.body.onkeyup = function (ctx) {
+    if (ctx.keyCode === 27) {
+      ToggleDisplay('main_panel')
+    } else if (
+      document.activeElement === au_input &&
+      parseInt(ctx.key) >= 1 &&
+      parseInt(ctx.key) <= 8
+    ) {
+      au_input.value = au_input.value + ctx.key
+    } else if (document.activeElement === au_input && ctx.keyCode === 8) {
+      au_input.value = au_input.value.slice(0, -1)
+    }
+  }
+
+  document.onmousemove = function () {
+    x = event.clientX
+    y = event.clientY
+  }
+
+  document.onmousedown = function (e) {
+    if (e.button == 2) {
+      Z = true
+    }
+  }
+
+  document.onmouseup = function (e) {
+    if (e.button == 2) {
+      Z = false
+    }
+  }
+
+  //== Draw Funcs ==//
+  const canvas = document.createElement('canvas')
+
+  function get_Radius() {
+    X = window.innerWidth / 2
+    Y = window.innerHeight / 2
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
+
+    radius[0] = window.innerWidth * 0.17681239669
+    radius[1] = window.innerWidth * 0.06545454545
+    radius[2] = window.innerWidth * 0.16751239669
+    radius[3] = window.innerWidth * 0.36
+  }
+  get_Radius()
+  window.addEventListener('resize', get_Radius)
+
+  canvas.style.position = 'absolute'
+  canvas.style.top = '0px'
+  canvas.style.left = '0px'
+  canvas.style.pointerEvents = 'none'
+
+  document.body.appendChild(canvas)
+  const ctx = canvas.getContext('2d')
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Aim Line
+    if (view_line_toggle.checked) {
+      ctx.beginPath();
+      ctx.moveTo(X, Y);
+      ctx.lineTo(x, y);
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = aim_line_color_picker.value;
+      ctx.stroke();
+    }
+
+    if (auto_set_toggle_input.checked) {
+      input.execute('game_stats_build ' + au_input.value);
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  // Function to toggle Show HP
+  function toggleShowHP() {
+    if (show_hp_toggle_input.checked) {
+      unsafeWindow.input.set_convar('ren_raw_health_values', true);
+    } else {
+      unsafeWindow.input.set_convar('ren_raw_health_values', false);
+    }
+  }
+
+  // Function to toggle Debug Collisions
+  function toggleDebugCollisions() {
+    if (debug_collisions_toggle_input.checked) {
+      unsafeWindow.input.set_convar('ren_debug_collisions', true);
+    } else {
+      unsafeWindow.input.set_convar('ren_debug_collisions', false);
+    }
+  }
+
+  show_hp_toggle_input.addEventListener('change', toggleShowHP);
+  debug_collisions_toggle_input.addEventListener('change', toggleDebugCollisions);
+
+  draw();
+
+})()
