@@ -1,7 +1,3 @@
-(function () {
-  'use strict'
-
-  //== Basic Elements ==//
   const main_panel = document.createElement('div')
   main_panel.id = 'main_panel'
 
@@ -431,5 +427,3 @@
   debug_collisions_toggle_input.addEventListener('change', toggleDebugCollisions);
 
   draw();
-
-})()
